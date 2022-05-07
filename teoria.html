@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mi primera pagina web</title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="HTML">
+		<meta name="description" content="Esta es una pagina la cual esta dedicada al aprendizaje de desarrollo web. No sean pendejos y denle amor">
+		<meta name="author" content="Eduardo Gifone">
+		<meta name="copyright" content="Eduardo Inc.">
+		<meta name="robots" content="noindex">
+		<link rel="icon" href="fondo.ico">
+	</head>
+	<body>
+		<!--Elementos h-->
+		<h1>Hola Mundo</h1>
+		<h2>Hola Mundo</h2>
+		<h3>Hola Mundo</h3>
+		<h4>Hola Mundo</h4>
+		<h5>Hola Mundo</h5>
+		<h6>Hola Mundo</h6>
+
+		<!--Elemento Parrafo-->
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. <br>Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+		<!--Esto es un Comentario-->
+
+		<!--Elemento Imagen-->
+		<h3>Imagen</h3>
+		<center>
+			<img src="https://static.wikia.nocookie.net/wiki-de-rick-morty/images/a/af/Rick_y_Morty_Temporada_4.jpg/revision/latest?cb=20201211173353&path-prefix=es" alt="Rick & Morty" title="Rick & Morty" width="200px" height="270px">
+		</center>
+
+		<!--Elemento video-->
+		<h3>Video</h3>
+		<video src="video_prueba.mp4" title="Violada a JBalvin" controls=""></video>
+		
+		<!--Elemento audio-->
+		<h3>Audio</h3>
+		<audio src="video_prueba.mp4" controls=""></audio>
+
+		<!--Elemento anchor (enlaces)-->
+		<a href="#final">Ir al Final</a>
+		<a href="https://youtube.com">Click aqui </a>Para ir a youtube
+		<a href="https://youtube.com" target="_blank">Click aqui </a>Para ir a youtube en una pestania aparte
+
+		<!--Lista Desordenada-->
+		<h3>Lista desordenada <b>(Unordered List)</b></h3>
+		<ul>
+			<li>Leche</li>
+			<li>Huevo</li>
+			<li>Pan</li>
+		</ul>
+
+		<!--Lista Ordenada-->
+		<h3>Lista ordenada <b>(Ordered List)</b></h3>
+		<ol>
+			<li>Leche</li>
+			<li>Huevo</li>
+			<li>Pan</li>
+		</ol>
+
+		<!--Formulario-->
+		<h3>Formulario</h3>
+		<form action="url-del-servidor" method="post">
+			<!--Elementos imput-->
+			<input type="text" placeholder="Texto probicional" required><br>
+			<input type="password" required><br>
+			<input type="number"><br>
+			<input type="email"><br>
+			<input type="color"><br>
+			<input type="range" min="1" max="5"><br>
+			<input type="date"><br>
+			<input type="time"><br>
+			<input type="button" value="Boton"><br>
+			<input type="submit"><br>
+			<textarea readonly="">Como estas manito?</textarea>
+
+			<!--Boton submit-->
+			<button type="submit"></button>
+
+			<!--Botones radio-->
+			<label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+    		<label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
+
+			<!--Botones checkbox-->
+			<label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
+			<label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+			<label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
+		</form>
+
+		<!--Estilos para las letras-->
+		<b>Negrita</b>
+		<i>Italica</i>
+		<strike>Tachada</strike> 
+		<small>Chikita</small>
+		<strong>Strong</strong>
+		<u>Subrayar</u>
+		<em>Cursiva</em>
+		<s>Tachar</s>
+
+		<!--Linea Horizontal-->
+		<hr>
+
+		<!--Elemento div-->
+		<div>
+			<h4>Estoy dentro de un div</h4>
+			<p>Esto tambien esta dentro de un div</p>
+		</div>		
+
+		<!--Elemento tabla-->
+		<h3>Tabla</h3>
+		<table border="1px">
+			<tr>
+				<td><b>Nombre</b></td>
+				<td><b>Apellido</b></td>
+				<td><b>Edad</b></td>
+			</tr>
+			<tr>
+				<td>Eduardo</td>
+				<td>Gifone Villasante</td>
+				<td>19</td>
+			</tr>
+			<tr>
+				<td>Licelith</td>
+				<td>Villasante Rodriguez</td>
+				<td>46</td>
+			</tr>
+		</table>
+
+		<h2 id="final">Este es el final de la pagina</h2>
+
+	</body>
+</html>

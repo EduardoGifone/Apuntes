@@ -1,0 +1,167 @@
+* {
+    /*Tamanio de fuente*/    
+    font-size: 30px;
+
+    /*Tipo de letra*/
+    font-family: FAMILY_NAME, GENERIC_NAME;
+
+    /*Grosor de texto*/
+    font-weight: 800px;
+
+    /*Distancia entre lineas en un bloque*/
+    line-height: 25px;
+    
+    /*Color (texto..)*/
+    color: orange;
+
+    /*Alto*/
+    height: 10vh;
+
+    /*Ancho*/
+    width: 100vw;
+    
+    /*Bordes*/    
+    border-radius: 50%;
+    /*Forma larga*/
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+    /*Forma corta*/
+    border: red 5px solid;
+
+    /*Color del fondo*/    
+    background-color: green;
+    
+    /*background con imagen*/
+    background: url(direccion-de-la-imagen.png/jpeg/jpg);
+
+    /*Gradiente lineal (Degradados)*/
+    /*Argumentos*/
+    /*background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);*/
+    background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
+
+    /*Gradiente lineal repetida*/
+    background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      blue 40px,
+      green 40px,
+      red 80px
+    );
+
+    /*Padding*/
+    padding: 10px; /*Todos los lados*/
+    padding: 10px 10px; /*top, botton || right, left*/
+    padding: 10px 4px 2px 7px; /*top, botton, right, left*/
+    padding-top: 5px; /**/
+    padding-right: 5px; /**/ 
+    padding-bottom: 5px; /**/ 
+    padding-left: 5px; /**/
+
+    /*Margin*/
+    margin: 10px; /*Todos los lados*/
+    margin: 10px 10px; /*top, botton || right, left*/
+    margin: 10px 4px 2px 7px; /*top, botton, right, left*/
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+    /*Centrar elementos en bloque horizontalmente*/
+    margin: auto;
+
+    /*Unidades absolutas
+        in: pulgadas
+        mm: milimetros
+      Unidades relativas
+        em
+        rem*/
+
+    /*Variables*/
+    /*Crear variable*/
+    --nombre-variable: gray;
+    /*Utilizar variable | variable de respaldo*/
+    background: var(--nombre-variable, black);
+
+    /*Media query*/
+    @media (max-width: 350px) {
+    }
+
+    /*Alineacion de contenido en un elemento en bloque*/
+    text-align: justify;
+    text-align: center;
+    text-align: right;
+    text-align: left;
+
+    /*Sombra o sombras para elementos*/
+    /*offset-x  offset-y  blur-radius  spread-radius  color*/
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    /*Opacidad en elementos*/
+    opacity: 0.7;
+
+    /*Convertir texto (mayuscula, minuscula, etc)*/
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-transform: initial;
+    text-transform: inherit;
+    text-transform: none;
+
+    /*Posicion de un elemento*/
+    /*top, bottom, right, left*/
+    position: static;
+    position: relative;
+    position: absolute;
+    position: fixed;
+    position: sticky;
+
+    /*Superposicion de elementos*/
+    z-index: 2;
+
+    /*Transformar elementos*/
+    /*aumentar tamanio*/
+    transform: scale(2); /*ambos ejes*/
+    transform: scale(2, 3); /*ejes especificos*/
+    /*inclinar elemento*/
+    transform: skewX(-35deg); /*eje x*/
+    transform: skewY(12deg); /*eje y*/
+    transform: skewY(-35deg, 12deg); /*ambos ejes*/
+    /*trasladar*/
+    transform: translate(120px, -10px);
+    /*rotar*/
+    transform: rotate(45deg);
+}
+
+/*Pseudo-clase hover*/
+a:hover {
+  color: red;
+}
+
+/*Pseudo-elementos ::before y ::after*/
+div::before{
+  content: ""
+}
+
+/*Animaciones*/
+#anim {
+  animation-name: colorful;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-direction: reverse;
+  animation-fill-mode: forwards; /*Valores: none, forwards, backwards, both*/
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; /*Valores comunes: ease, ease-out, ease-in, linear*/
+  /*Pagina para ayudar a entender el cubic-bezier
+  https://cubic-bezier.com/#.17,.67,.83,.67*/
+  animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+}
+
+@keyframes colorful {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
