@@ -89,7 +89,7 @@ Descargar repositorio
 ► git pull 
 
 Descargar rama 
-► git pull <nombre-de-la-rama>
+► git pull origin <nombre-de-la-rama>
 
 Ver todas la ramas que hay
 ► git branch
