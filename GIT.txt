@@ -85,7 +85,10 @@ Subir repositorio en rama master
 Subir repositorio en otra rama
 ► git push -u origin <nombre-de-la-rama>
 
-Descargar repositorio
+Descargar repositorio desde correo
+► git clone <https>
+
+Descargar repositorio donde ya se esta iniciado
 ► git pull 
 
 Descargar rama 
