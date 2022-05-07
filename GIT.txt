@@ -86,7 +86,10 @@ Subir repositorio en otra rama
 ► git push -u origin <nombre-de-la-rama>
 
 Descargar repositorio
-► git pull -u origin master
+► git pull 
+
+Descargar rama 
+► git pull <nombre-de-la-rama>
 
 Ver todas la ramas que hay
 ► git branch
