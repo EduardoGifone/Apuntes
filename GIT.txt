@@ -12,9 +12,12 @@ Cuenta con 3 areas
         COMANDOS BASICOS
 =================================
 
-Configurar email y nombre
-► git config --global user.email "correo@correo.com"
-► git config --global user.name "tu-nombre"
+Configurar 
+► git config --global user.email "correo@correo.com"    #CORREO
+► git config --global user.name "tu-nombre"             #USER
+► git config --global core.editor "code"                #EDITOR DE TEXTO
+► git config --global -e                                #ARCHIVO DE CONFIG.
+► git config --global core.autocrlf <valor>             #CARACTERES ESPECIALES (valor = Windows: true || Mac/Linux: input)
 NOTA: En caso de no poner --global solo serviria para el proyecto en cuestion.
 
 Crear repositorio de git
@@ -67,6 +70,18 @@ Deshacer cambios y volver al punto antes del commit sin los cambios
 Recuperar archivo borrado
 ► git restore <nombre-del-archivo>
 
+Quitar archivo del Staging Area
+► git restore --staged <archivo>
+
+Renombrar archivo
+► git mv <nombre-antiguo> <nombre-nuevo>
+
+Ver cambios
+► git diff
+
+Ver cambios en Staging Area
+► git diff --staged
+
 Añadir repositorio local a la nube
 ► git remote add origin <codigo-SSH>
 
@@ -76,13 +91,15 @@ https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generati
 Subimos la clave publica a github
     cd 
     cd .ssh
-    cat clave-publica.pub 
+    cat clave-publica.pub
     Copiamos y pegamos en github 'SSH and GPG keys'
 
 Subir repositorio en rama master
 ► git push -u origin master
 
 Subir repositorio en otra rama
+Parametros:
+    -u: Crear rama en la nube
 ► git push -u origin <nombre-de-la-rama>
 
 Descargar repositorio desde correo
