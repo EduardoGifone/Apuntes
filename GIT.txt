@@ -141,4 +141,4 @@ Almacenar cambios aun no commiteados
 Recuperar los cambios guardados
 ► git stash pop
 
-Eso es todo supongo...
+.
