@@ -166,11 +166,4 @@ div::before{
   }
 }
 
-@keyframes colorful {
-  0% {
-    background-color: blue;
-  }
-  100% {
-    background-color: yellow;
-  }
-}
+/*Esto es un comentario de Karol G*/
