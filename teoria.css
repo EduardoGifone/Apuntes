@@ -165,3 +165,12 @@ div::before{
     background-color: yellow;
   }
 }
+
+@keyframes colorful {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
