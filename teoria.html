@@ -31,6 +31,15 @@
 
 		<!--Esto es un Comentario-->
 
+		<!-- Elementos figure y figcaption-->
+		<figure>
+			<img src="roundhouseDestruction.jpeg" alt="Photo of Camper Cat executing a roundhouse kick">
+			<br>
+			<figcaption>
+			  Master Camper Cat demonstrates proper form of a roundhouse kick.
+			</figcaption>
+		  </figure>
+
 		<!--Elemento Imagen-->
 		<h3>Imagen</h3>
 		<center>
@@ -44,6 +53,11 @@
 		<!--Elemento audio-->
 		<h3>Audio</h3>
 		<audio src="video_prueba.mp4" controls=""></audio>
+
+		<audio id="meowClip" controls>
+			<source src="audio/meow.mp3" type="audio/mpeg">
+			<source src="audio/meow.ogg" type="audio/ogg">
+		</audio>
 
 		<!--Elemento anchor (enlaces)-->
 		<a href="#final">Ir al Final</a>
@@ -95,6 +109,23 @@
 			<label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
 		</form>
 
+		<!-- Otro ejemlo de formulario envolviendo los radios en un mismo grupo
+				ademas de aniadir ina leyenda-->
+		<form>
+			<fieldset>
+			  <legend>Choose one of these three items:</legend>
+			  <input id="one" type="radio" name="items" value="one">
+			  <label for="one">Choice One</label><br>
+			  <input id="two" type="radio" name="items" value="two">
+			  <label for="two">Choice Two</label><br>
+			  <input id="three" type="radio" name="items" value="three">
+			  <label for="three">Choice Three</label>
+			</fieldset>
+		</form>
+
+		<!-- Elemento time-->
+		<time datetime="2013-02-13">last Wednesday</time>
+
 		<!--Estilos para las letras-->
 		<b>Negrita</b>
 		<i>Italica</i>
@@ -136,5 +167,20 @@
 
 		<h2 id="final">Este es el final de la pagina</h2>
 
+		<!--Semantica
+		
+			<header>
+				<nav></nav>
+			</header>
+
+			<main>
+				<section>
+					<article></article>
+				</section>
+			</main>
+
+			<footer></footer>
+
+		-->
 	</body>
 </html>

@@ -1,4 +1,4 @@
-* {
+.apuntes1 {
     /*Tamanio de fuente*/    
     font-size: 30px;
 
@@ -144,7 +144,7 @@ div::before{
 }
 
 /*Animaciones*/
-#anim {
+.anim {
   animation-name: colorful;
   animation-duration: 3s;
   animation-delay: 2s;
@@ -164,4 +164,8 @@ div::before{
   100% {
     background-color: yellow;
   }
+}
+
+.apuntes2 {
+  
 }
