@@ -35,6 +35,15 @@
     /*background con imagen*/
     background: url(direccion-de-la-imagen.png/jpeg/jpg);
 
+    /*Repeat del background*/
+    background-repeat: no-repeat;
+
+    /*Posicion del fondo*/
+    background-position: center center;
+
+    /*Size del background*/
+    background-size: cover;
+
     /*Gradiente lineal (Degradados)*/
     /*Argumentos*/
     /*background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);*/
