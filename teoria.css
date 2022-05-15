@@ -28,6 +28,8 @@
     border-style: solid;
     /*Forma corta*/
     border: red 5px solid;
+    /*Borde pero sin coupar espacio*/
+    outline: red 5px solid;
 
     /*Color del fondo*/    
     background-color: green;
@@ -109,6 +111,9 @@
     /*offset-x  offset-y  blur-radius  spread-radius  color*/
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
+    /*Sombra o sombras para el texto*/
+    text-shadow: 0 30px 15px #FFF;
+
     /*Opacidad en elementos*/
     opacity: 0.7;
 
@@ -122,7 +127,7 @@
 
     /*Posicion de un elemento*/
     /*top, bottom, right, left*/
-    position: static;
+    position: static; /*Defecto*/
     position: relative;
     position: absolute;
     position: fixed;
@@ -151,6 +156,17 @@
     transition-delay: 1s;
     /*Forma corta*/
     transition: all 4s linear 1s;
+
+    /*Sobrante del bloque*/
+    overflow: visible; /*Defecto*/
+    overflow: auto;
+    overflow: hidden;
+    overflow: scroll;   
+    
+    /*Encajar objeto contenidos en la etiqueta img*/
+    object-fit: contain;
+    object-fit: cover;
+    object-fit: fill;
 }
 
 /*Pseudo-clase hover*/
