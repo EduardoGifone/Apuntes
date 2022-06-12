@@ -78,6 +78,11 @@ background: repeating-linear-gradient(
 );
 ```
 
+### Filtro al background
+```css
+backdrop-filter: blur(5px);
+```
+
 ## ALTO Y ANCHO
 
 ### Alto
