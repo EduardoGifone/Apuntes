@@ -64,7 +64,7 @@ text-transform: inherit;
 text-transform: none;
 ```
 
-## BACKGROUND {#id-background}
+## BACKGROUND <a id="id-background"></a>
 [Indice](#id-indice)
 
 ### Color del fondo
@@ -119,7 +119,7 @@ background: repeating-linear-gradient(
 backdrop-filter: blur(5px);
 ```
 
-## ALTO Y ANCHO {#id-alto-ancho}
+## ALTO Y ANCHO <a id="id-alto-ancho"></a>
 [Indice](#id-indice)
 
 ### Alto
@@ -132,7 +132,7 @@ height: 10vh;
 width: 100vw;
 ```
     
-## BORDES {#id-bordes}
+## BORDES <a id="id-bordes"></a>
 [Indice](#id-indice)
 
 ### Radio deo borde
@@ -157,7 +157,7 @@ border: red 5px solid;
 outline: red 5px solid;
 ```
 
-## PADDING {#id-padding}
+## PADDING <a id="id-padding"></a>
 [Indice](#id-indice)
 ```css
 padding: 10px; /*Todos los lados*/
@@ -169,7 +169,7 @@ padding-bottom: 5px;
 padding-left: 5px;
 ```
 
-## MARGIN {#id-margin}
+## MARGIN <a id="id-margin"></a>
 [Indice](#id-indice)
 ```css
 margin: 10px; /*Todos los lados*/
@@ -186,7 +186,7 @@ margin-left: 5px;
 margin: auto;
 ```
 
-## UNIDADES {#id-unidades}
+## UNIDADES <a id="id-unidades"></a>
 [Indice](#id-indice)
 
 ### Unidades absolutas
@@ -197,7 +197,7 @@ margin: auto;
     em
     rem*/
 
-## Variables {#id-variables}
+## Variables <a id="id-variables"></a>
 [Indice](#id-indice)
 
 ### Crear variable
@@ -210,7 +210,7 @@ margin: auto;
 background: var(--nombre-variable, black);
 ```
 
-## Media query {#id-media-query}
+## Media query <a id="id-media-query"></a>
 [Indice](#id-indice)
 
 ``` css
@@ -219,7 +219,7 @@ background: var(--nombre-variable, black);
 }
 ```
 
-## Alineacion de contenido en un elemento en bloque {#id-alineacion-contenido}
+## Alineacion de contenido en un elemento en bloque <a id="id-alineacion-contenido"></a>
 [Indice](#id-indice)
 
 ```css
@@ -229,7 +229,7 @@ text-align: right;
 text-align: left;
 ```
 
-## Sombra o sombras para elementos {#id-sombra}
+## Sombra o sombras para elementos <a id="id-sombra"></a>
 [Indice](#id-indice)
 
 ### Sombra para caja
@@ -243,14 +243,14 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 text-shadow: 0 30px 15px #FFF;
 ```
 
-## Opacidad en elementos {#id-opacidad}
+## Opacidad en elementos <a id="id-opacidad"></a>
 [Indice](#id-indice)
 
 ```css
 opacity: 0.7;
 ```
 
-## Posicion de un elemento {#id-position}
+## Posicion de un elemento <a id="id-position"></a>
 [Indice](#id-indice)
 
 ```css
@@ -267,7 +267,7 @@ position: sticky;
 z-index: 2;
 ```
 
-## Transformar elementos {#id-transform}
+## Transformar elementos <a id="id-transform"></a>
 [Indice](#id-indice)
 
 ### Aumentar tamanio
@@ -293,7 +293,7 @@ transform: translate(120px, -10px);
 transform: rotate(45deg);
 ```
 
-## Transiciones {#id-transition}
+## Transiciones <a id="id-transition"></a>
 [Indice](#id-indice)
 
 ### Forma Larga
@@ -309,7 +309,7 @@ transition-delay: 1s;
 transition: all 4s linear 1s;
 ```
 
-## Sobrante del bloque {#id-overflow}
+## Sobrante del bloque <a id="id-overflow"></a>
 [Indice](#id-indice)
 
 ```css
@@ -319,7 +319,7 @@ overflow: hidden;
 overflow: scroll;
 ```
     
-## Encajar objeto contenidos en la etiqueta img {#id-object-fit}
+## Encajar objeto contenidos en la etiqueta img <a id="id-object-fit"></a>
 [Indice](#id-indice)
 
 ```css
@@ -328,7 +328,7 @@ object-fit: cover;
 object-fit: fill;
 ```
 
-## Pseudo-clase hover {#id-hover}
+## Pseudo-clase hover <a id="id-hover"></a>
 [Indice](#id-indice)
 
 ```css
@@ -337,7 +337,7 @@ a:hover {
 }
 ```
 
-## Pseudo-elementos ::before y ::after {#id-before-after}
+## Pseudo-elementos ::before y ::after <a id="id-before-after"></a>
 [Indice](#id-indice)
 
 ```css
@@ -346,7 +346,7 @@ div::before{
 }
 ```
 
-## Animaciones {#id-animaciones}
+## Animaciones <a id="id-animaciones"></a>
 [Indice](#id-indice)
 
 ### Propiedades
@@ -374,7 +374,7 @@ animation-timing-function: cubic-bezier(0.25, 0.25, 075, 0.75);
 }
 ```
 
-## FLEX {#id-flex}
+## FLEX <a id="id-flex"></a>
 [Indice](#id-indice)
 
 ```css
@@ -442,7 +442,7 @@ align-self: center;
 align-self: baseline;
 ```
 
-## GRID {#id-grid}
+## GRID <a id="id-grid"></a>
 [Indice](#id-indice)
 
 ```css
