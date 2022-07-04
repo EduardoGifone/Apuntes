@@ -2,7 +2,33 @@
 
 ***
 
-## Estructura basica
+## Indice <a id="id-indice"></a>
+* [Estructura basica](#id-basic-struct)
+* [Contenido basico](#id-basic-content)
+* [h](#id-h)
+* [p](#id-p)
+* [Comentarios](#id-comment)
+* [figure - figcaption](#id-fig)
+* [Imagen](#id-img)
+* [Video](#id-video)
+* [Audio](#id-audio)
+* [a](#id-a)
+* [Lista Desordenada](#id-ul)
+* [Lista Ordenada](#id-ol)
+* [Inputs](#id-input)
+* [Boton](#id-button)
+* [Radio](#id-radio)
+* [Checkbox](#id-checkbox)
+* [Formulario](#id-form)
+* [Time](#id-time)
+* [Estilo de letras](#id-style-font)
+* [hr](#id-hr)
+* [div](#id-div)
+* [table](#id-table)
+
+***
+
+## Estructura basica <a id="id-basic-struct"></a>
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +56,9 @@
 </html>
 ```
 
-## Contenido basico del head
+[Indice](#id-indice)
+
+## Contenido basico del head <a id="id-basic-content"></a>
 ```html
 <head>
     <title>Mi primera pagina web</title>
@@ -44,7 +72,9 @@
 </head>
 ```
 
-## Etiqueta h
+[Indice](#id-indice)
+
+## Etiqueta h <a id="id-h"></a>
 ```html
 <h1>Hola Mundo</h1>
 <h2>Hola Mundo</h2>
@@ -54,18 +84,25 @@
 <h6>Hola Mundo</h6>
 ```
 
-## Etiqueta Parrafo
+[Indice](#id-indice)
+
+## Etiqueta Parrafo <a id="id-p"></a>
 ```html
 <p>
     Este contenido esta dentro de un parrafo
 </p>
 ```
-## Etiqueta comentario
+
+[Indice](#id-indice)
+
+## Etiqueta comentario <a id="id-comment"></a>
 ```html
 <!--Esto es un Comentario-->
 ```
 
-## Etiquetas figure y figcaption
+[Indice](#id-indice)
+
+## Etiquetas figure y figcaption <a id="id-fig"></a>
 ```html
 <figure>
     <img src="direccion-imagen" alt="Photo of Camper Cat executing a roundhouse kick">
@@ -76,17 +113,23 @@
 </figure>
 ```
 
-## Etiqueta Imagen
+[Indice](#id-indice)
+
+## Etiqueta Imagen <a id="id-img"></a>
 ```html
 <img src="direccion-imagen" alt="texto-equivalente" title="titulo-imagen">
 ```
 
-## Etiqueta video
+[Indice](#id-indice)
+
+## Etiqueta video <a id="id-video"></a>
 ```html
 <video src="direccion-video" title="titulo-video" controls=""></video>
 ```
+
+[Indice](#id-indice)
 		
-## Etiqueta audio
+## Etiqueta audio <a id="id-audio"></a>
 ```html
 <audio src="video_prueba.mp4" controls=""></audio>
 
@@ -96,13 +139,18 @@
 </audio>
 ```
 
-## Etiqueta anchor (enlaces)
+[Indice](#id-indice)
+
+## Etiqueta anchor (enlaces) <a id="id-a"></a>
 ```html
 <a href="#final">Ir al Final</a>
 <a href="https://youtube.com">Click aqui </a>Para ir a youtube
 <a href="https://youtube.com" target="_blank">Click aqui </a>Para ir a youtube en una pestania aparte
 ```
-## Etiqueta Lista Desordenada - Unordered List
+
+[Indice](#id-indice)
+
+## Etiqueta Lista Desordenada - Unordered List <a id="id-ul"></a>
 ```html
 <ul>
     <li>Leche</li>
@@ -111,7 +159,9 @@
 </ul>
 ```
 
-## Etiqueta Lista ordenada - Ordered List
+[Indice](#id-indice)
+
+## Etiqueta Lista ordenada - Ordered List <a id="id-ol"></a>
 ```html
 <ol>
     <li>Leche</li>
@@ -120,7 +170,9 @@
 </ol>
 ```
 
-## Etiqueta input
+[Indice](#id-indice)
+
+## Etiqueta input <a id="id-input"></a>
 ```html
 <input type="text" placeholder="Tex probicional" required><br>
 <input type="password" required><br>
@@ -135,28 +187,38 @@
 <textarea readonly="">Como estas manito?</textarea>
 ```
 
-## Etiqueta boton
+[Indice](#id-indice)
+
+## Etiqueta boton <a id="id-button"></a>
 ```html
 <button type="submit"></button>
 ```
 
-## Etiqueta Botones radio
+[Indice](#id-indice)
+
+## Etiqueta Botones radio <a id="id-radio"></a>
 ```html
 <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
 <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
 ```
 
-## Botones checkbox
+[Indice](#id-indice)
+
+## Botones checkbox <a id="id-checkbox"></a>
 ```html
 <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
 <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
 <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
 ```
 
-## Etiqueta Formulario
+[Indice](#id-indice)
+
+## Etiqueta Formulario <a id="id-form"></a>
 ```html
 <form action="url-del-servidor" method="post"></form>
 ```
+
+
 ## Otro ejemlo de formulario envolviendo los radios en un mismo grupo ademas de aniadir una leyenda
 ```html
 <form>
@@ -174,12 +236,17 @@
     </fieldset>
 </form>
 ```
-## Etiqueta time
+
+[Indice](#id-indice)
+
+## Etiqueta time <a id="id-time"></a>
 ```html
 <time datetime="2013-02-13">last Wednesday</time>
 ```
 
-## Estilos para las letras
+[Indice](#id-indice)
+
+## Estilos para las letras <a id="id-style-font"></a>
 ```html
 <b>Negrita</b>
 <i>Italica</i>
@@ -191,20 +258,26 @@
 <s>Tachar</s>
 ```
 
-## Etiqueta Linea Horizontal
+[Indice](#id-indice)
+
+## Etiqueta Linea Horizontal <a id="id-hr"></a>
 ```html		
 <hr>
 ```
 
-## Etiqueta div
-```html
+[Indice](#id-indice)
+
+## Etiqueta div <a id="id-div"></a>
+```html 
 <div>
     <h4>Estoy dentro de un div</h4>
     <p>Esto tambien esta dentro de un div</p>
 </div>
 ```	
 
-## Etiqueta tabla
+[Indice](#id-indice)
+
+## Etiqueta tabla <a id="id-table"></a>
 ```html
 <table border="1px">
     <tr>
@@ -224,3 +297,5 @@
     </tr>
 </table>
 ```
+
+[Indice](#id-indice)
