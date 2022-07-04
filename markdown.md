@@ -70,7 +70,7 @@
     [^2]: Nota de la segunda referencia.
 
 ## Ids
-    ## Un encabezado {#id-encabezado}
+    ## Un encabezado <a id="id-encabezado"></a>
 
 ## Citas abreviadas 
     Esto es una ""cita""
