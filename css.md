@@ -2,7 +2,32 @@
 
 ***
 
-## FONT
+## Indice {#id-indice}
+* [Fuentes](#id-font)
+* [Background](#id-background)
+* [Alto y ancho](#id-alto-ancho)
+* [Bordes](#id-bordes)
+* [Padding](#id-padding)
+* [Margin](#id-margin)
+* [Unidades](#id-unidades)
+* [Varibales](#id-variables)
+* [Media Query](#id-media-query)
+* [Alineacion Contenido](#id-alineacion-contenido)
+* [Sombras](#id-sombra)
+* [Opacidad en elementos](#id-opacidad)
+* [Position](#id-position)
+* [Transformar elementos](#id-transform)
+* [Transiciones](#id-transition)
+* [Sobrante del bloque](#id-overflow)
+* [Encajar objeto en img](#id-object-fit)
+* [Pseudo clase hover](#id-hover)
+* [Pseudo elementos before y after](#id-before-after)
+* [Animaciones](#id-animaciones)
+* [Flex](#id-flex)
+* [Grid](#id-grid)
+
+## FONT {#id-font}
+[Indice](#id-indice)
 
 ### Tamanio de fuente
 ```css 
@@ -29,7 +54,18 @@ line-height: 25px;
 color: orange;
 ```
 
-## BACKGROUND
+### Convertir texto (mayuscula, minuscula, etc)
+```css
+text-transform: lowercase;
+text-transform: uppercase;
+text-transform: capitalize;
+text-transform: initial;
+text-transform: inherit;
+text-transform: none;
+```
+
+## BACKGROUND {#id-background}
+[Indice](#id-indice)
 
 ### Color del fondo
 ```css
@@ -83,7 +119,8 @@ background: repeating-linear-gradient(
 backdrop-filter: blur(5px);
 ```
 
-## ALTO Y ANCHO
+## ALTO Y ANCHO {#id-alto-ancho}
+[Indice](#id-indice)
 
 ### Alto
 ```css
@@ -95,7 +132,8 @@ height: 10vh;
 width: 100vw;
 ```
     
-## BORDES
+## BORDES {#id-bordes}
+[Indice](#id-indice)
 
 ### Radio deo borde
 ```css
@@ -119,7 +157,8 @@ border: red 5px solid;
 outline: red 5px solid;
 ```
 
-## PADDING    
+## PADDING {#id-padding}
+[Indice](#id-indice)
 ```css
 padding: 10px; /*Todos los lados*/
 padding: 10px 10px; /*top, botton || right, left*/
@@ -130,7 +169,8 @@ padding-bottom: 5px;
 padding-left: 5px;
 ```
 
-## MARGIN
+## MARGIN {#id-margin}
+[Indice](#id-indice)
 ```css
 margin: 10px; /*Todos los lados*/
 margin: 10px 10px; /*top, botton || right, left*/
@@ -141,12 +181,13 @@ margin-bottom: 5px;
 margin-left: 5px;
 ```
 
-## Centrar elementos en bloque horizontalmente
+### Centrar elementos en bloque horizontalmente
 ```css
 margin: auto;
 ```
 
-## UNIDADES
+## UNIDADES {#id-unidades}
+[Indice](#id-indice)
 
 ### Unidades absolutas
     in: pulgadas
@@ -156,7 +197,8 @@ margin: auto;
     em
     rem*/
 
-## Variables
+## Variables {#id-variables}
+[Indice](#id-indice)
 
 ### Crear variable
 ```css
@@ -168,14 +210,18 @@ margin: auto;
 background: var(--nombre-variable, black);
 ```
 
-## Media query
+## Media query {#id-media-query}
+[Indice](#id-indice)
+
 ``` css
 @media (max-width: 350px) {
     /* TU CODIGO */
 }
 ```
 
-## Alineacion de contenido en un elemento en bloque*/
+## Alineacion de contenido en un elemento en bloque {#id-alineacion-contenido}
+[Indice](#id-indice)
+
 ```css
 text-align: justify;
 text-align: center;
@@ -183,7 +229,8 @@ text-align: right;
 text-align: left;
 ```
 
-## Sombra o sombras para elementos
+## Sombra o sombras para elementos {#id-sombra}
+[Indice](#id-indice)
 
 ### Sombra para caja
 ```css
@@ -196,22 +243,16 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 text-shadow: 0 30px 15px #FFF;
 ```
 
-## Opacidad en elementos
+## Opacidad en elementos {#id-opacidad}
+[Indice](#id-indice)
+
 ```css
 opacity: 0.7;
 ```
 
-## Convertir texto (mayuscula, minuscula, etc)
-```css
-text-transform: lowercase;
-text-transform: uppercase;
-text-transform: capitalize;
-text-transform: initial;
-text-transform: inherit;
-text-transform: none;
-```
+## Posicion de un elemento {#id-position}
+[Indice](#id-indice)
 
-## Posicion de un elemento
 ```css
 /*top, bottom, right, left*/
 position: static; /*Defecto*/
@@ -226,7 +267,8 @@ position: sticky;
 z-index: 2;
 ```
 
-## Transformar elementos
+## Transformar elementos {#id-transform}
+[Indice](#id-indice)
 
 ### Aumentar tamanio
 ```css
@@ -251,7 +293,8 @@ transform: translate(120px, -10px);
 transform: rotate(45deg);
 ```
 
-## Transiciones
+## Transiciones {#id-transition}
+[Indice](#id-indice)
 
 ### Forma Larga
 ```css
@@ -266,7 +309,9 @@ transition-delay: 1s;
 transition: all 4s linear 1s;
 ```
 
-## Sobrante del bloque
+## Sobrante del bloque {#id-overflow}
+[Indice](#id-indice)
+
 ```css
 overflow: visible; /*Defecto*/
 overflow: auto;
@@ -274,28 +319,35 @@ overflow: hidden;
 overflow: scroll;
 ```
     
-## Encajar objeto contenidos en la etiqueta img
+## Encajar objeto contenidos en la etiqueta img {#id-object-fit}
+[Indice](#id-indice)
+
 ```css
 object-fit: contain;
 object-fit: cover;
 object-fit: fill;
 ```
 
-## Pseudo-clase hover
+## Pseudo-clase hover {#id-hover}
+[Indice](#id-indice)
+
 ```css
 a:hover {
   color: red;
 }
 ```
 
-## Pseudo-elementos ::before y ::after
+## Pseudo-elementos ::before y ::after {#id-before-after}
+[Indice](#id-indice)
+
 ```css
 div::before{
   content: ""
 }
 ```
 
-## Animaciones
+## Animaciones {#id-animaciones}
+[Indice](#id-indice)
 
 ### Propiedades
 ```css
@@ -322,7 +374,9 @@ animation-timing-function: cubic-bezier(0.25, 0.25, 075, 0.75);
 }
 ```
 
-## FLEX
+## FLEX {#id-flex}
+[Indice](#id-indice)
+
 ```css
 display: flex;
 ```
@@ -388,7 +442,9 @@ align-self: center;
 align-self: baseline;
 ```
 
-## GRID
+## GRID {#id-grid}
+[Indice](#id-indice)
+
 ```css
 display: grid;
 ```
