@@ -2,16 +2,31 @@
 
 ***
 
-## Repositorio base
+## Indice <a id="id-indice"></a>
+* [Repositorio base](#id-base)
+* [Imprimir](#id-console-log)
+* [Variables](#id-var)
+* [Destructuring](#id-destructuring)
+* [Operaciones](#id-operations)
+* [Operaciones Logicas](#id-logical-operations)
+* [Booleanos](#id-bool)
+
+***
+
+## Repositorio base <a id="id-base"></a>
 [Javascrip Notes](https://github.com/martincrb/mastermind-js)
 
-## Imprimir en terminal
+[Indice](#id-indice)
+
+## Imprimir en terminal <a id="id-console-log"></a>
 ```js
 console.log('Hola mundo');
 console.log('Eduardo',a);
 ```
 
-## Variables
+[Indice](#id-indice)
+
+## Variables <a id="id-var"></a>
 ### Las variables son dinamicas
 ```js
 console.log(typeoff variable)
@@ -37,12 +52,16 @@ var valorNulo = null;
 var valorUndefined;
 ```
 
-## Destructuring
+[Indice](#id-indice)
+
+## Destructuring <a id="id-destructuring"></a>
 ```js
 [x, y] = [y, x]
 ```
 
-## Operaciones
+[Indice](#id-indice)
+
+## Operaciones <a id="id-operations"></a>
 ### Numeros
 ```js
 var suma = a + b;
@@ -67,11 +86,15 @@ var apellido = 'Gifone Villasante';
 var nombre_completo = nombre + ' ' + apellido + 23;
 ```
 
-## Operadores logicos
+[Indice](#id-indice)
+
+## Operadores logicos <a id="id-logical-operations"></a>
     And: &&          
     Or:||
 
-## Booleanos
+[Indice](#id-indice)
+
+## Booleanos <a id="id-bool"></a>
     > < >= <= == === != !==
 
 ```js
@@ -81,3 +104,5 @@ var a = '10';
 var b = 10;
 var aMayorQueb = a > b;
 ```
+
+[Indice](#id-indice)
