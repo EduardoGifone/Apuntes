@@ -2,7 +2,15 @@
 
 ***
 
-## Comentarios
+## Indice <a id="id-indice"></a>
+* [Comentarios](#id-comments)
+* [Variables](#id-var)
+* [Operaciones](#id-operations)
+* [Operadores unarios](#id-unary-operators)
+
+***
+
+## Comentarios <a id="id-comments"></a>
 ```php
 <?php
 // Primera forma de comentario
@@ -14,7 +22,9 @@ esta soporta multiples lineas*/
 ?>
 ```
 
-## Variables
+[Indice](#id-indice)
+
+## Variables <a id="id-var"></a>
 ```php
 <?php
 $variable_entera = (integer) -23;
@@ -25,7 +35,9 @@ $variable_boolean_false = (boolean) false;
 ?>
 ```
 
-## Operaciones
+[Indice](#id-indice)
+
+## Operaciones <a id="id-operations"></a>
 ```php
 <?php 
 $a = (integer) 2; 
@@ -39,7 +51,9 @@ echo 'La módulo de $a % $b es: <b>'.($a % $b).'</b><br>';
 ?>
 ```
 
-## Operadores unarios
+[Indice](#id-indice)
+
+## Operadores unarios <a id="id-unary-operators"></a>
 ```php
 <?php
 $a = (integer) 10; 
@@ -50,3 +64,5 @@ echo 'Operador pre decremento es: '.(--$a).'<br>';
 echo 'Operador post decremento es: '.($a--).'<br>';
 ?>
 ```
+
+[Indice](#id-indice)
