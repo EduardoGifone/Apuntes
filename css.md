@@ -26,8 +26,9 @@
 * [Flex](#id-flex)
 * [Grid](#id-grid)
 
+***
+
 ## FONT <a id="id-font"></a>
-[Indice](#id-indice)
 
 ### Tamanio de fuente
 ```css 
@@ -64,8 +65,9 @@ text-transform: inherit;
 text-transform: none;
 ```
 
-## BACKGROUND <a id="id-background"></a>
 [Indice](#id-indice)
+
+## BACKGROUND <a id="id-background"></a>
 
 ### Color del fondo
 ```css
@@ -119,8 +121,9 @@ background: repeating-linear-gradient(
 backdrop-filter: blur(5px);
 ```
 
-## ALTO Y ANCHO <a id="id-alto-ancho"></a>
 [Indice](#id-indice)
+
+## ALTO Y ANCHO <a id="id-alto-ancho"></a>
 
 ### Alto
 ```css
@@ -131,9 +134,10 @@ height: 10vh;
 ```css
 width: 100vw;
 ```
+
+[Indice](#id-indice)
     
 ## BORDES <a id="id-bordes"></a>
-[Indice](#id-indice)
 
 ### Radio deo borde
 ```css
@@ -157,8 +161,9 @@ border: red 5px solid;
 outline: red 5px solid;
 ```
 
-## PADDING <a id="id-padding"></a>
 [Indice](#id-indice)
+
+## PADDING <a id="id-padding"></a>
 ```css
 padding: 10px; /*Todos los lados*/
 padding: 10px 10px; /*top, botton || right, left*/
@@ -169,8 +174,9 @@ padding-bottom: 5px;
 padding-left: 5px;
 ```
 
-## MARGIN <a id="id-margin"></a>
 [Indice](#id-indice)
+
+## MARGIN <a id="id-margin"></a>
 ```css
 margin: 10px; /*Todos los lados*/
 margin: 10px 10px; /*top, botton || right, left*/
@@ -186,8 +192,9 @@ margin-left: 5px;
 margin: auto;
 ```
 
-## UNIDADES <a id="id-unidades"></a>
 [Indice](#id-indice)
+
+## UNIDADES <a id="id-unidades"></a>
 
 ### Unidades absolutas
     in: pulgadas
@@ -197,8 +204,9 @@ margin: auto;
     em
     rem*/
 
-## Variables <a id="id-variables"></a>
 [Indice](#id-indice)
+
+## Variables <a id="id-variables"></a>
 
 ### Crear variable
 ```css
@@ -210,8 +218,9 @@ margin: auto;
 background: var(--nombre-variable, black);
 ```
 
-## Media query <a id="id-media-query"></a>
 [Indice](#id-indice)
+
+## Media query <a id="id-media-query"></a>
 
 ``` css
 @media (max-width: 350px) {
@@ -219,8 +228,9 @@ background: var(--nombre-variable, black);
 }
 ```
 
-## Alineacion de contenido en un elemento en bloque <a id="id-alineacion-contenido"></a>
 [Indice](#id-indice)
+
+## Alineacion de contenido en un elemento en bloque <a id="id-alineacion-contenido"></a>
 
 ```css
 text-align: justify;
@@ -229,8 +239,9 @@ text-align: right;
 text-align: left;
 ```
 
-## Sombra o sombras para elementos <a id="id-sombra"></a>
 [Indice](#id-indice)
+
+## Sombra o sombras para elementos <a id="id-sombra"></a>
 
 ### Sombra para caja
 ```css
@@ -243,15 +254,17 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 text-shadow: 0 30px 15px #FFF;
 ```
 
-## Opacidad en elementos <a id="id-opacidad"></a>
 [Indice](#id-indice)
+
+## Opacidad en elementos <a id="id-opacidad"></a>
 
 ```css
 opacity: 0.7;
 ```
 
-## Posicion de un elemento <a id="id-position"></a>
 [Indice](#id-indice)
+
+## Posicion de un elemento <a id="id-position"></a>
 
 ```css
 /*top, bottom, right, left*/
@@ -267,8 +280,9 @@ position: sticky;
 z-index: 2;
 ```
 
-## Transformar elementos <a id="id-transform"></a>
 [Indice](#id-indice)
+
+## Transformar elementos <a id="id-transform"></a>
 
 ### Aumentar tamanio
 ```css
@@ -293,8 +307,9 @@ transform: translate(120px, -10px);
 transform: rotate(45deg);
 ```
 
-## Transiciones <a id="id-transition"></a>
 [Indice](#id-indice)
+
+## Transiciones <a id="id-transition"></a>
 
 ### Forma Larga
 ```css
@@ -309,8 +324,9 @@ transition-delay: 1s;
 transition: all 4s linear 1s;
 ```
 
-## Sobrante del bloque <a id="id-overflow"></a>
 [Indice](#id-indice)
+
+## Sobrante del bloque <a id="id-overflow"></a>
 
 ```css
 overflow: visible; /*Defecto*/
@@ -318,9 +334,10 @@ overflow: auto;
 overflow: hidden;
 overflow: scroll;
 ```
+
+[Indice](#id-indice)
     
 ## Encajar objeto contenidos en la etiqueta img <a id="id-object-fit"></a>
-[Indice](#id-indice)
 
 ```css
 object-fit: contain;
@@ -328,8 +345,9 @@ object-fit: cover;
 object-fit: fill;
 ```
 
-## Pseudo-clase hover <a id="id-hover"></a>
 [Indice](#id-indice)
+
+## Pseudo-clase hover <a id="id-hover"></a>
 
 ```css
 a:hover {
@@ -337,8 +355,9 @@ a:hover {
 }
 ```
 
-## Pseudo-elementos ::before y ::after <a id="id-before-after"></a>
 [Indice](#id-indice)
+
+## Pseudo-elementos ::before y ::after <a id="id-before-after"></a>
 
 ```css
 div::before{
@@ -346,8 +365,9 @@ div::before{
 }
 ```
 
-## Animaciones <a id="id-animaciones"></a>
 [Indice](#id-indice)
+
+## Animaciones <a id="id-animaciones"></a>
 
 ### Propiedades
 ```css
@@ -374,8 +394,9 @@ animation-timing-function: cubic-bezier(0.25, 0.25, 075, 0.75);
 }
 ```
 
-## FLEX <a id="id-flex"></a>
 [Indice](#id-indice)
+
+## FLEX <a id="id-flex"></a>
 
 ```css
 display: flex;
@@ -442,8 +463,9 @@ align-self: center;
 align-self: baseline;
 ```
 
-## GRID <a id="id-grid"></a>
 [Indice](#id-indice)
+
+## GRID <a id="id-grid"></a>
 
 ```css
 display: grid;
@@ -547,3 +569,5 @@ grid-template-rows: repeat(auto-fill, minmax(60px, 1fr));
 ```css
 grid-template-rows: repeat(auto-fit, minmax(60px, 1fr));
 ```
+
+[Indice](#id-indice)
