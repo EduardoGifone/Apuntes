@@ -2,7 +2,7 @@
 
 ***
 
-## Indice {#id-indice}
+## Indice <a id="id-indice"></a>
 * [Fuentes](#id-font)
 * [Background](#id-background)
 * [Alto y ancho](#id-alto-ancho)
