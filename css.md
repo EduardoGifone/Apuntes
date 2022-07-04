@@ -26,7 +26,7 @@
 * [Flex](#id-flex)
 * [Grid](#id-grid)
 
-## FONT {#id-font}
+## FONT <a id="id-font"></a>
 [Indice](#id-indice)
 
 ### Tamanio de fuente
